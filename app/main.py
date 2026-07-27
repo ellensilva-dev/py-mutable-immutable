@@ -16,21 +16,19 @@ profile_info = ("michel", "michel@gmail.com", "12345678")
 marks = {
     "John": 4,
     "Sergio": 3,
-    }
-
+}
 collection_of_coins = {1, 2, 25}
 
-classified_variables = {
-    "mutable": [
-        my_favourite_films,
-        marks,
-        collection_of_coins,
-    ],
-    "immutable": [
-        lucky_number,
-        pi,
-        one_is_a_prime_number,
-        name,
-        profile_info,
-    ],
+sorted_variables = {
+    "mutable": []
+    "immutable": []
 }
+
+sorted_variables["mutable"] = [my_favourite_films, marks, collection_of_coins]
+sorted_variables["immutable"] = [
+    lucky_number,
+    pi,
+    one_is_a_prime_number,
+    name,
+    profile_info,
+] 
