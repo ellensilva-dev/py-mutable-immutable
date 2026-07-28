@@ -20,6 +20,7 @@ marks = {
 
 collection_of_coins = {1, 2, 25}
 
+# Certifique-se de incluir TODAS as variáveis imutáveis na lista:
 sorted_variables = {
     "mutable": [
         my_favourite_films,
