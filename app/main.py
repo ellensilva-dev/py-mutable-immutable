@@ -17,12 +17,8 @@ marks = {
     "John": 4,
     "Sergio": 3,
 }
-collection_of_coins = {1, 2, 25}
 
-sorted_variables = {
-    "mutable": [],
-    "immutable": [],
-}
+collection_of_coins = {1, 2, 25}
 
 sorted_variables = {
     "mutable": [
@@ -38,4 +34,3 @@ sorted_variables = {
         profile_info,
     ],
 }
-
